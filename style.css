@@ -43,11 +43,7 @@
 }
 .botoes {
     display: block;
-}
-.botao:first-child
-{ 
-    border-radius: 40px 40px 0 0;
-    border-left: 4px solid var (--cor-borda);
+    border-radius: 40px 0 0 40px;
 }
 @media screen and ( min-width:769px)
 {
@@ -76,5 +72,11 @@ dispaly: block;
 .aba-conteudo
 {
     dispaly:none;
+}
+.botao.ativo{
+    background-color: rgb(23, 126, 223);
+    border-radius: 40px 40px 0 0;
+    border-left: 4px solid var (--cor-borda);
+
 }
 
