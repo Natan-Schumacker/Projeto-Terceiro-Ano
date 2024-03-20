@@ -3,7 +3,7 @@
     --cor-de-fundo: #e90505;
     --preto: #000000;
     --branco: #ffffff;
-    --botao-ativo: #A020FO;
+    --botao-ativo: #6aeedc;
      --botao-inativo: #1fe7dd;
     --texto-fundo: #45d4c1;
     --cor-borda:#241818;
@@ -60,23 +60,23 @@ body
 {
     background-color: var(--texto-fundo);
     padding: 40px;
-    border-radius: 0 0 0px 40px;
+    border-radius: 40px 40px 40px 40px;
     border-bottom: 4px solid var(--cor-borda);
     border-right: 4px solid var(--cor-borda);
     border-left: 4px solid var(--cor-borda);
+    border-top: 4px solid var(--cor-borda);
 }
 .aba-conteudo.ativo
 {
-dispaly: block;
+display: block;
 }
 .aba-conteudo
 {
-    dispaly:none;
+display:none;
 }
 .botao.ativo{
-    background-color: rgb(23, 126, 223);
+    background-color: rgb(56, 138, 214);
     border-radius: 40px 40px 0 0;
     border-left: 4px solid var (--cor-borda);
-
 }
 
